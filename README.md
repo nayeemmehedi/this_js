@@ -15,16 +15,16 @@ r upore tar parents object thkte hy
 
 
 
-const parents ={
+   const parents ={
     myChildName : "Mew",
 
     thisCheck : function(){
         console.log(this.myChildName)
-    }
+     }
 
-}
+   }
 
-parents.thisCheck()
+     parents.thisCheck()
 
 rule3 
 
@@ -59,7 +59,7 @@ subrule 1
 parent r this.name  r value nai methodname e , so boom o this.name nai
 
 
-const obj = {
+    const obj = {
     name: "nayeem",
 
     methodName:  () =>{
@@ -69,30 +69,30 @@ const obj = {
             console.log(this.name) //undefined
         }
         boom()
+      }
     }
-}
 
-obj.methodName()
+     obj.methodName()
 
 
 subrule 2
 
 parent r this.name  r value ase methodname e , so boom o this.name pyse 
 
-const obj = {
+    const obj = {
     name: "nayeem",
 
-    methodName:  function(){
+     methodName:  function(){
    
         console.log(this.name) //nayeem
         const boom=()=> {
             console.log(this.name) //nayeem
         }
         boom()
+     }
     }
-}
 
-obj.methodName()
+    obj.methodName()
 
 
 
